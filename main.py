@@ -16,10 +16,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Constants - REPLACE THESE FOR PRODUCTION
-TOKEN: Final = '8053291585:AAHcYV-LJBNGj2HQB02v0wY8p6t7Q0MF6Xk'  # Replace with your actual bot token
+TOKEN: Final = ''  # Replace with your actual bot token
 BOT_USERNAME: Final = '@Leetcoder77bot'
-GEMINI_API_KEY: Final = 'AIzaSyATpob0VVeyoykhlyWGvXQI5ka4pfLYDQQ'  # Replace with your actual Gemini API key
-GEMINI_API_URL: Final = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}'
+GEMINI_API_KEY: Final = ''  # Replace with your actual Gemini API key
+GEMINI_API_URL: Final = ={GEMINI_API_KEY}'
 
 # Define constant instead of duplicating "application/json" literal
 CONTENT_TYPE_JSON: Final = "application/json"
